@@ -43,7 +43,7 @@ body.inverse .card .form-control {
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: "Open Sans","Montserrat","Helvetica", "Arial", sans-serif;
+  font-family: "Avenir", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
 }
 
@@ -1983,7 +1983,7 @@ legend {
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.5em;
   border-radius: 3px;
 }
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
@@ -2235,7 +2235,7 @@ legend {
   color: #ffffff;
 }
 .navbar.navbar-info {
-  background-color: #03a9f4;
+  background-color: #04b4cf;
   color: #ffffff;
 }
 .navbar.navbar-info .navbar-form .form-group input.form-control::-moz-placeholder,
@@ -2580,7 +2580,7 @@ legend {
 h1, .h1 {
   font-size: 3.8em;
   line-height: 1.15em;
-  font-family: "BebasNeue", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h2, .h2 {
@@ -3552,13 +3552,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   z-index: 3;
   color: black;
   font-size: 1.3em;
-  text-align: justify;
+  text-align: left;
   
 }
 
 .main-raised {
-  margin: -5% 10%;
-  padding: 5% 10%;
+  padding: 3% 6%;
   border-radius: 6px;
   width: 80%;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
@@ -3591,7 +3590,7 @@ h2.title {
   left: 0;
   top: 0;
   content: "";
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   background-attachment: fixed;
 }
 .header-filter .container {
@@ -3673,9 +3672,6 @@ h2.title {
 }
 .landing-page .header .title {
   color: #FFFFFF;
-}
-.landing-page .wrapper {
-  background: #CCCCCC;
 }
 
 .profile-page .header {
